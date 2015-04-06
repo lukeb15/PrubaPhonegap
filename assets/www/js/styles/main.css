@@ -1,0 +1,39 @@
+html{
+	height: 100%;
+	width: 100%;
+	display: flex;
+}
+body {
+	margin: 0;
+	min-height: 100%;
+	min-width: 100%;
+}
+
+.fondoCeleste {
+    background-color: rgb(0,173,229);
+}
+
+.fondoAzul {
+    background-color: rgb(13,84,140);
+	color:rgb(244,238,227);
+	padding-bottom: 5px;
+ 	padding-top: 4px;
+}
+
+.fondoGris {
+    background-color: rgb(238,237,238);
+}
+
+.fondoIntro {
+	background-color: rgb(0,173,229);	
+	-webkit-box-shadow: inset 0px 0px 119px 6px rgba(0,0,0,0.57);
+	-moz-box-shadow: inset 0px 0px 119px 6px rgba(0,0,0,0.57);
+	box-shadow: inset 0px 0px 119px 6px rgba(0,0,0,0.57);
+}
+
+.main{
+	text-align: center;
+	vertical-align: middle;
+	margin-left: auto;
+    margin-right: auto;
+}

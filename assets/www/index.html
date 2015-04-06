@@ -7,17 +7,22 @@
 <script type="text/javascript" charset="utf-8" src="js/vendors/cordova.js"></script>
 <script type="text/javascript" src="js/controllers/app.js"></script>
 <script type="text/javascript" src="js/vendors/phonegap-nfc.js"></script>
+<link rel="stylesheet" type="text/css" href="js/styles/main.css">
 <script type="text/javascript">
     app.initialize();
 </script>
 </head>
-<body>
-<h1>Hola mundo PhoneGap</h1>
-<p>Ejemplo de aplicación Android con PhoneGap y Eclipse</p>
-
-<div class="app" ng-controller="HomeController">
-<h1>Apache Cordova with {{message}}</h1>
-<input type="text" ng-model="message"/>
-</div>
+<body class="fondoGris">
+	<div class="main" ng-controller="HomeController" style="width:100%;height:100%">
+		<div class="fondoAzul">
+			Apache Cordova
+		</div>
+		<br>
+		<div>
+			<input type="text" ng-model="message"/>
+			<br>
+			Mensaje: {{message}}					
+		</div>
+	</div>
 </body>
 </html>

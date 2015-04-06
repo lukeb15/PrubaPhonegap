@@ -11,7 +11,7 @@ var app = {
         document.addEventListener('deviceready', this.deviceready, false);
     },
     deviceready: function () {
-    
+    	navigator.notification.alert("Dispositivo listo... Inicializando aplicacion...", function() {}, "mensaje");
         function failure(reason) {
             navigator.notification.alert(reason, function() {}, "There was a problem");
         }
